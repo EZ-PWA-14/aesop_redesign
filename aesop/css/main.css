@@ -19,14 +19,12 @@ h1 {
   line-height: 30px;
 }
 h2 {
-  /* color: #473F3F; */
   color: #000;
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
 }
 h3 {
-  /* color: #473F3F; */
   color: #000;
   font-size: 13px;
   font-weight: 500;
@@ -38,7 +36,6 @@ h4 {
   line-height: 30px;
 }
 p {
-  /* color: #473F3F; */
   color: #000;
   font-size: 11px;
   font-weight: 500;
@@ -127,6 +124,7 @@ nav .nav_menu span {
   font-size: 15px;
   font-weight: 500;
   line-height: 30px;
+  padding-bottom: 5px;
 }
 nav a {
   position: absolute;
@@ -289,7 +287,7 @@ nav .nav_menu span:hover {
   flex-direction: column;
   align-items: flex-start;
   align-self: stretch;
-  background-image: url(/img/sec03.jpg);
+  background-image: url(/portfolio01_redesign/aesop/img/sec03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right
