@@ -1,1 +1,143 @@
 @charset "UTF-8";
+
+.banner p {
+  color: red;
+}
+
+nav {
+  padding: 0px 5%;
+}
+nav .rogo img {
+  width: 113px;
+  height: 31px;
+}
+nav .nav_menu {
+  gap: 20px;
+}
+nav .nav_menu span {
+  font-size: 13px;
+}
+
+.sec01 .txt_box:nth-child(2) h1 {
+  text-align: center;
+}
+
+.sec02_left h1 {
+  font-size: 20px;
+  height: 120px;
+  align-items: center;
+  padding: 0;
+}
+.sec02_right h1, .sec02 h2 {
+  font-size: 12px;
+  line-height: 20px;
+}
+.sec02 h3 {
+  font-size: 12px;
+  line-height: 20px;
+}
+.sec02 p {
+  font-size: 10px;
+}
+.sec02_right .txt_box > div {
+  gap: 5px;
+}
+.sec02_left {
+  width: 100%;
+  gap: 50px;
+}
+.sec02_left .mySwiper {
+  width: 300px;
+  height: 475px;
+}
+.signature_product {
+  height: 730px;
+  gap: 85px;
+}
+.signature_product_box {
+  width: 300px;
+  padding: 0;
+}
+.signature_product_box img {
+  width: 220px;
+  height: 281px;
+}
+.signature_product_box .txt_box {
+  text-align: center;
+}
+.swiper-button-next, .swiper-button-prev {
+  top: var(--swiper-navigation-top-offset, 40%);
+}
+
+.sec02_right {
+  height: 730px;
+}
+.sec02_right .txt_box {
+  height: 120px;
+  padding: 0;
+  justify-content: center;
+  gap: 0px;
+}
+
+
+/* sec03 */
+.sec03 {
+  padding: 250px 5% 200px 5%;
+}
+
+/* sec04 */
+.sec04 {
+  padding: 145px 5%;
+  gap: 130px;
+}
+.sun_product_box img {
+  width: 330px;
+}
+
+/* sec06 */
+.sec06 {
+  padding: 100px 4% 70px 4%;
+}
+.sec06 .txt_box {
+  width: 100%;
+  flex: 1 0 0;
+}
+.sec06 .txt_box .txt01 h1 {
+  font-size: 20px;
+}
+
+.sec06 .txt_box .txt02 p {
+  text-align: center;
+  word-break: keep-all;
+}
+
+
+/* footer */
+.footer_sec01 {
+  padding: 100px 5% 0px 5%;
+  flex-direction: column;
+  gap: 90px;
+}
+.footer_sec02 {
+  padding: 30px 5% 50px 5%;
+}
+footer .left {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+footer .left .rogo {
+  flex: 1 0 0;
+}
+footer .left .left_box {
+  flex: 1 0 0;
+}
+footer .right {
+  width: 100%;
+  padding: 0;
+}
+footer .right .txt_box {
+  width: 100%;
+  min-width: 150px;
+}
