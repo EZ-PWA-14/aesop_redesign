@@ -14,6 +14,7 @@
 </head>
 
 <body>
+  <!-- banner -------------------------------------->
   <div class="banner">
     <div>
       <p>스킨 케어 제품 구매 시 새로운 이매큘 페이셜 토닉 15mL 샘플을 선물로 드립니다.</p>
@@ -29,9 +30,89 @@
       </div>
     </div>
   </div>
+
+  <!-- nav_modal -------------------------------------->
+
+  <!-- log_modal -------------------------------------->
+  <div class="modal_background"></div>
+  <div class="log_modal">
+    <span class="material-symbols-outlined log_close">
+      close
+    </span>
+    <h1>Log in</h1>
+    <form action="#">
+      <div class="input_box">
+        <input type="email" placeholder="이메일" />
+        <div class="password">
+          <div>
+            <input type="password" placeholder="비밀번호" />
+            <a href="#">
+              <h3>보기</h3>
+            </a>
+          </div>
+          <a href="#">
+            <h3>비밀번호 찾기</h3>
+          </a>
+        </div>
+      </div>
+      <button>
+        <h2>Sign Up</h2>
+        <span class="material-symbols-outlined">
+          east
+        </span>
+      </button>
+    </form>
+    <form action="#">
+      <div class="txt_box">
+        <h2>회원이 아니신가요 ?</h2>
+        <h4>회원가입을 통해 주문 내역을 확인하고, 위시리스트에 관심 제품을 저장하거나, 저장된 정보를 사용하여 더 빠른 온라인 결제 경험을 즐기실 수 있습니다.</h4>
+      </div>
+      <button>
+        <h2>Create account</h2>
+        <span class="material-symbols-outlined">
+          east
+        </span>
+      </button>
+    </form>
+  </div>
+
+  <!-- search_modal -------------------------------------->
+  <div class="search_modal">
+    <div class="input_box">
+      <form action="#">
+        <input type="text">
+        <span class="material-symbols-outlined">east</span>
+      </form>
+      <div class="txt_box">
+        <h2>인기 검색어</h2>
+        <div class="txt01">
+          <h3>향수 선물</h3>
+          <h3>복합성을 위한 어메이징 케어</h3>
+          <h3>선물세트</h3>
+          <h3>핸드크림 선물세트</h3>
+        </div>
+      </div>
+    </div>
+    <div class="search_product_box">
+      <a href="#" class="search_product">
+        <img src="/portfolio01_redesign/aesop/img/02/sun01.png" alt="img">
+        <h3>Protective Lip Balm SPF30</h3>
+      </a>
+      <a href="#" class="search_product">
+        <img src="/portfolio01_redesign/aesop/img/02/sun01.png" alt="img">
+        <h3>Protective Lip Balm SPF30</h3>
+      </a>
+      <a href="#" class="search_product">
+        <img src="/portfolio01_redesign/aesop/img/02/sun01.png" alt="img">
+        <h3>Protective Lip Balm SPF30</h3>
+      </a>
+    </div>
+  </div>
+
+  <!-- nav -------------------------------------->
   <nav>
-    <a href="./aesop_main.html" class="rogo">
-      <img src="/portfolio01_redesign/aesop/img/Aesop_logo_2013.svg" alt="logo">
+    <a href="./aesop_main.html" class="rogo" id="logo_box">
+      <img src="/portfolio01_redesign/aesop/img/Aesop_logo_2013.svg" alt="logo" id="logo_img">
     </a>
     <div class="nav_menu_set">
       <a href="./aesop_main.html" class="rogo">
@@ -40,8 +121,8 @@
       <span class="material-symbols-outlined nav_close">
         close
       </span>
-      <div>
-        <div class="nav_menu">
+      <div class="nav_set">
+        <div class="nav_menu nav01">
           <span>Shop<span class="material-symbols-outlined arrow">
               arrow_forward
             </span></span>
@@ -54,13 +135,15 @@
           <span>Brand<span class="material-symbols-outlined arrow">
               arrow_forward
             </span></span>
-          <span class="material-symbols-outlined search">
+          <span class="material-symbols-outlined search searchBt">
             search
           </span>
+          <span class="material-symbols-outlined search_close">
+            close
+          </span>
         </div>
-
-        <div class="nav_menu">
-          <span>Log in</span>
+        <div class="nav_menu nav02">
+          <span class="log">Log in</span>
           <span>Cabinet</span>
           <span>Cart</span>
         </div>
@@ -75,7 +158,11 @@
       </span>
     </div>
   </nav>
+
+  <!-- main -------------------------------------->
   <div class="inner">
+
+    <!-- sec01 -------------------------------------->
     <section class="sec01">
       <video class="main_video" muted autoplay loop>
         <source src="/portfolio01_redesign/aesop/img/sec01.mp4">
@@ -91,6 +178,7 @@
       </div>
     </section>
 
+    <!-- sec02 -------------------------------------->
     <section class="sec02">
       <article class="sec02_left">
         <div class="signature_product">
@@ -105,7 +193,6 @@
                     <h3>Clear, low-foaming gel for gentle cleansing</h3>
                   </div>
                 </a>
-
               </div>
               <div class="swiper-slide">
                 <a href="#" class="signature_product_box">
@@ -165,6 +252,8 @@
         </div>
       </article>
     </section>
+
+    <!-- sec03 -------------------------------------->
     <section class="sec03">
       <div class="sec03_left">
         <div class="txt_box txt01">
@@ -185,6 +274,8 @@
         </a>
       </div>
     </section>
+
+    <!-- sec04 -------------------------------------->
     <section class="sec04">
       <div class="txt_box">
         <h1>Aesop's signature</h1>
@@ -240,6 +331,8 @@
         </div>
       </div>
     </section>
+
+    <!-- sec05 -------------------------------------->
     <section class="sec05">
       <h1>‘Your best and wisest refuge from all troubles is in your science.’</h1>
       <h2>Ada Lovelace</h2>
@@ -287,6 +380,8 @@
         </div>
       </div>
     </section>
+
+    <!-- footer -------------------------------------->
     <footer>
       <div class="footer_sec01">
         <div class="left">
