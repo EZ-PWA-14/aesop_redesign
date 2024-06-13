@@ -1,6 +1,6 @@
 @charset "UTF-8";
 h1 {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 20px;
   font-weight: 400;
 }
@@ -20,6 +20,7 @@ p {
   font-size: 11px;
   line-height: 20px;
 }
+/* banner */
 .banner {
   display: flex;
   flex-direction: column;
@@ -29,7 +30,63 @@ p {
 .banner p {
   color: blue;
   text-align: center;
+  font-size: 11px;
 }
+
+/* log_modal */
+.log_modal {
+  width: 100%;
+  top: 0%;
+  transform: translate(0);
+  left: 0;
+  gap: 50px;
+  padding: 60px 25px 80px 25px;
+}
+.log_modal > h1 {
+  font-size: 20px;
+}
+.log_modal input {
+  font-size: 15px;
+  padding: 5px;
+}
+.log_modal .input_box {
+  gap: 35px;
+}
+.log_modal .password > div > a {
+  right: 7.5%;
+  top: 196px;
+}
+
+/* search_modal */
+.search_modal {
+  gap: 50px;
+  padding: 200px 5% 100px 5%;
+  flex-direction: column;
+  height: 100vh;
+}
+.search_modal form {
+  max-width: 1000px;
+  width: 100%;
+}
+.search_modal .input_box {
+  width: 100%;
+}
+.search_modal .search_product_box {
+  width: 100%;
+}
+.search_modal .search_product {
+  width: 80px;
+}
+.search_modal .search_product img {
+  width: 150px;
+  height: 128px;
+}
+.search_modal .search_product h3 {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/* nav */
 nav .nav_menu_m {
   gap: 20px;
   display: flex;
@@ -82,6 +139,9 @@ nav .nav_menu_set .nav_menu span {
   height: 40px;
 }
 nav .nav_menu_set .nav_menu:nth-child(1) span {
+  font-size: 18px;
+}
+nav .nav_menu_set .nav_menu:nth-child(2) span {
   font-size: 15px;
 }
 nav .nav_menu_set .nav_menu:nth-child(2) {
@@ -132,15 +192,20 @@ nav .nav_menu_set .nav_close {
 .sec02_left h1 {
   height: 80px;
 }
+.sec02 h2 {
+  font-size: 15px;
+}
 .signature_product {
   height: 630px;
   gap: 95px;
 }
 .sec02_left .mySwiper {
+  width: 90%;
   padding-top: 10px;
-  height: 310px;
+  height: 320px;
 }
 .signature_product_box {
+  width: 100%;
   gap: 10px;
 }
 .signature_product_box img {
@@ -148,7 +213,7 @@ nav .nav_menu_set .nav_close {
   height: 251px;
 }
 .signature_product_box .txt_box {
-  gap: 0;
+  gap: 10px;
 }
 .swiper-button-next, .swiper-button-prev {
   top: var(--swiper-navigation-top-offset, 55%);
@@ -161,6 +226,7 @@ nav .nav_menu_set .nav_close {
   background-image: url(/portfolio01_redesign/aesop/img/sec02_right.png);
   background-size: cover;
   background-repeat: no-repeat;
+  gap: 10px;
 }
 .sec02_right .txt_box h3 {
   display: none;
