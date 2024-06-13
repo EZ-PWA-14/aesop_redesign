@@ -242,8 +242,7 @@ header {
   z-index: 90;
   height: 570px;
   flex-direction: row;
-  gap: 100px;
-  padding: 120px 100px 0px 100px;
+  padding: 120px 5.5% 0px 5.5%;
   justify-content: space-between;
   align-items: center;
   background: #E5E1D7;
@@ -254,11 +253,12 @@ header {
 }
 .search_modal .input_box {
   display: flex;
+  flex: 1 0 0;
   padding-bottom: 10px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 30px;
-  min-width: 410px;
+  gap: 20px;
+  /* min-width: 410px; */
 }
 .search_modal .input_box .txt_box {
   display: flex;
@@ -278,36 +278,45 @@ header {
   color: #8B857E;
 }
 .search_modal form {
-  width: 100%;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  border-bottom: 1px solid;
 }
 .search_modal input {
   width: 100%;
   background-color: transparent;
-  border-width: 0 0 1px;
+  border-width: 0px;
+  padding: 10px 0;
+  font-size: 20px;
 }
-.search_modal form > span {
+/* .search_modal form > span {
   position: relative;
-  right: -390px;
-  top: -31px;
-}
+  right: 28px;
+  top: 3px;
+} */
 .search_modal .search_product_box {
+  gap: 15px;
+  flex: 1 0 0;
+  justify-content: space-evenly;
   display: flex;
 }
 .search_modal .search_product {
+  width: 185px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
 }
-
 .search_modal .search_product img {
   width: 250px;
   height: 228px;
 }
 .search_modal .search_product h3 {
   font-weight: 600;
+  text-align: center;
 }
-.nav01 .search_close {
+.nav01 .search_close, nav .search_close {
   display: none;
   font-size: 20px;
 }
@@ -354,7 +363,7 @@ nav .nav_menu .search {
   font-size: 18px;
   color: #f1f1f1;
 }
-nav .nav_menu_m {
+nav .nav_menu_m, nav .searchm {
   display: none;
 }
 nav a {
@@ -433,7 +442,7 @@ nav .nav_menu_set > a, .nav_close {
 }
 .main_video {
   width: 100%;
-  object-fit: fill;
+  object-fit: cover;
   z-index: -1;
 }
 

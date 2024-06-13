@@ -1,15 +1,43 @@
 @charset "UTF-8";
 
+/* banner */
 .banner p {
   color: red;
 }
 
+/* log_modal */
+
+/* search_modal */
+.search_modal {
+  padding: 130px 5% 0px 5%;
+  gap: 40px;
+  height: 600px;
+}
+.search_modal form {
+  max-width: 400px;
+  width: 100%;
+}
+.search_modal .search_product {
+  width: 120px;
+}
+.search_modal .search_product_box {
+  gap: 5px;
+}
+.search_modal .search_product img {
+  width: 200px;
+  height: 178px;
+}
+
+/* nav */
 nav {
   padding: 0px 5%;
 }
+nav a {
+  top: 50%;
+}
 nav .rogo img {
-  width: 113px;
-  height: 31px;
+  width: 105px;
+  height: 26px;
 }
 nav .nav_menu {
   gap: 20px;
@@ -18,10 +46,12 @@ nav .nav_menu span {
   font-size: 13px;
 }
 
+/* sec01 */
 .sec01 .txt_box:nth-child(2) h1 {
   text-align: center;
 }
 
+/* sec02 */
 .sec02_left h1 {
   font-size: 20px;
   height: 120px;
